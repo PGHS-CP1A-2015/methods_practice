@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCP1_P4", "TestCP1_P4\TestCP1_P4.csproj", "{F524225E-D986-4DA0-837F-A25D14CE26C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCP1_P4_P2", "TestCP1_P4\TestCP1_P4_P2.csproj", "{F524225E-D986-4DA0-837F-A25D14CE26C6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P4_2", "P4_2\P4_2.csproj", "{47CE5485-4DF8-4CAF-8D8B-40B354B7DAAE}"
 EndProject

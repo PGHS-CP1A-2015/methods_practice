@@ -6,9 +6,13 @@ namespace TestCP1_P4
     [TestClass]
     public class UnitTest1
     {
-        
         [TestMethod]
-        public void TestMethod1()
+        public void TestRunWindow()
+        {
+            P4_2.P4Form _form = new P4_2.P4Form();
+        }
+        [TestMethod]
+        public void TestCalculatSideC()
         {
             
             Assert.AreEqual(5, P4_2.MyMathFunctions.calculateSideC(3, 4, 90));
@@ -80,16 +84,21 @@ namespace TestCP1_P4
         private Random _randomGenerator;
         private int random_number(int v1, int v2)
         {
+            if(_randomGenerator== null)
+            {
+                _randomGenerator = new Random();
+            }
             return _randomGenerator.Next(v1, v2); 
         }
+        private string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
         private string randomString(int v)
         {
-            var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-            var stringChars = new char[8];
+            char[] stringChars = new char[8];
             
             for (int i = 0; i < stringChars.Length; i++)
             {
-                stringChars[i] = chars[_randomGenerator.Next(chars.Length)];
+                stringChars[i] = chars[random_number(0,chars.Length)];
             }
 
             return new String(stringChars);
