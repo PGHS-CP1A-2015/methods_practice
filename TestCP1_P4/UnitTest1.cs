@@ -19,6 +19,17 @@ namespace TestCP1_P4
             Assert.AreEqual(10, P4_2.MyMathFunctions.calculateSideC(6, 8, 90));
         }
 
+        
+
+
+        [TestMethod]
+        public void Test_fahrenheit_to_celsius()
+        {
+            Assert.AreEqual(-7, P4_2.MyMathFunctions.fahrenheitToCelsius(20));
+            Assert.AreEqual(-12, P4_2.MyMathFunctions.fahrenheitToCelsius(10));
+            Assert.AreEqual(-40, P4_2.MyMathFunctions.fahrenheitToCelsius(-40));
+        }
+        /*
         [TestMethod]
         public void Test_celsius_to_fahrenheit()
         {
@@ -26,16 +37,6 @@ namespace TestCP1_P4
             Assert.AreEqual(50, P4_2.MyMathFunctions.celsiusToFahrenheit(10));
             Assert.AreEqual(-40, P4_2.MyMathFunctions.celsiusToFahrenheit(-40));
         }
-
-
-        [TestMethod]
-        public void Test_fahrenheit_to_celsius()
-        {
-            Assert.AreEqual(-7, P4_2.MyMathFunctions.fahrenheitToCelsius(20));
-            Assert.AreEqual(-13, P4_2.MyMathFunctions.fahrenheitToCelsius(10));
-            Assert.AreEqual(-40, P4_2.MyMathFunctions.fahrenheitToCelsius(-40));
-        }
-
         [TestMethod]
         public void Test_calculate_circumference_of_circle()
         {
@@ -80,6 +81,7 @@ namespace TestCP1_P4
             int remainder = number1 % number2;
             Assert.AreEqual(remainder, P4_2.MyMathFunctions.getRemainder(number1, number2));
         }
+        */
         /* Don't worry about anything below this point */
         private Random _randomGenerator;
         private int random_number(int v1, int v2)
