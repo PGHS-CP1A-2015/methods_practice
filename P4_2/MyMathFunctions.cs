@@ -17,5 +17,14 @@ namespace P4_2
                 (2 * sidea * sideb * Math.Cos(angleCInRads))
                 );
         }
+        /* Write methods here for
+            getRemainder(number1, number2)
+            getNumberSquared(number)
+            returnSameStringDoubled(r_string)
+            areaOfCircle(2)
+            circumferenceOfCircle(7)
+            fahrenheitToCelsius(-40)
+            celsiusToFahrenheit(-40)
+            */
     }
 }

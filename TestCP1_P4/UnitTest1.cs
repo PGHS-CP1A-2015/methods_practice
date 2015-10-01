@@ -80,7 +80,7 @@ namespace TestCP1_P4
             int remainder = number1 % number2;
             Assert.AreEqual(remainder, P4_2.MyMathFunctions.getRemainder(number1, number2));
         }
-
+        /* Don't worry about anything below this point */
         private Random _randomGenerator;
         private int random_number(int v1, int v2)
         {
